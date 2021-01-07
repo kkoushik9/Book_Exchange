@@ -1,0 +1,38 @@
+.book{
+    display:flex;
+    border-bottom:1px solid #636E72;
+    box-shadow:none;
+    padding: 2vh 1vw;
+    font-size:1.5vh;
+    cursor:pointer;
+    color:inherit;
+    text-decoration: none;
+    &:hover{
+      background-color: #DFE6E9;
+    }
+    
+    .title-section{
+      width:30%;
+      margin-left:2vw;
+    }
+    .author-section{
+      width:25%;
+      text-align:center;
+      margin-right:auto;
+      margin-left:auto;
+    }
+    .owner-section{
+      width:25%;
+      text-align:center;
+    }
+    .price-section{
+      width: 17%;
+      margin-left:auto;
+      text-align:right;
+      margin-right:2vw;
+    }
+    .edit-section{
+      width: 3%;
+      text-align:right;
+    }
+}

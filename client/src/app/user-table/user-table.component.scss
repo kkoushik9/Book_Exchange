@@ -1,0 +1,22 @@
+.user-table{
+  display:flex;
+  border-bottom:1px solid #636E72;
+  box-shadow:none;
+  padding: 2vh 1vw;
+  font-size:1.5vh;
+  color:inherit;
+  text-decoration: none;
+  cursor:pointer;
+  &:hover{
+    background-color: #DFE6E9;
+  }
+  
+  .name-section{
+    width:50%;
+    text-align:center;
+  }
+  .email-section{
+    width: 50%;
+    text-align:center;
+  }
+}
